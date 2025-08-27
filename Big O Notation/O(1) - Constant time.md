@@ -1,0 +1,2 @@
+- The fastest an algorithm can operate
+- An algorithm takes the same amount of time regardless of the amount of data
