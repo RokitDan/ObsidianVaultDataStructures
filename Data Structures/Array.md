@@ -1,6 +1,5 @@
-
-An array is a fundamental data structure that stores a collection of elements, typically of the same type, in contiguous memory locations. Arrays provide indexed
-access to elements and have a fixed or dynamic size.
+https://youtu.be/r51TRDECIw4?t=39
+An array is a fundamental data structure that stores a collection of elements, typically of the same type, in contiguous memory locations. Arrays provide indexed access to elements and have a fixed or dynamic size. Arrays are often processed with for loops which is a type of [[Linear Search]]
 
 **Key characteristics:**
 
@@ -41,7 +40,7 @@ const doubled = numbers.map(x => x * 2); // [2, 4, 6, 8, 10]
 const evens = numbers.filter(x => x % 2 === 0); // [2, 4]
 const sum = numbers.reduce((acc, x) => acc + x, 0); // 15
 
-// Array traversal
+// Array traversal / linear search
 for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
 }

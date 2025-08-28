@@ -5,8 +5,44 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:Algorithms/Sorting  ",
+      "color": {
+        "a": 1,
+        "rgb": 13071746
+      }
+    },
+    {
+      "query": "path:Algorithms /Search",
+      "color": {
+        "a": 1,
+        "rgb": 16363222
+      }
+    },
+    {
+      "query": "path:Algorithms  ",
+      "color": {
+        "a": 1,
+        "rgb": 16126739
+      }
+    },
+    {
+      "query": "path:\"Big O Notation\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Data Structures\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431008
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -2.1,
