@@ -5,3 +5,5 @@
 - [[Heap]]
 - [[Hashmap]]
 - [[Binary Search Tree]]
+- [[Set]]
+- [[Hashset]]
