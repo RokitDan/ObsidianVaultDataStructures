@@ -1,3 +1,5 @@
+Bro Code Insertion Sort: https://www.youtube.com/watch?v=8mJ-OhcfpYg
+
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It works by iterating through the array and inserting each
 element into its correct position among the already-sorted elements.
 

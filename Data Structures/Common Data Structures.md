@@ -4,3 +4,4 @@
 - [[Queue]]
 - [[Heap]]
 - [[Hashmap]]
+- [[Binary Search Tree]]

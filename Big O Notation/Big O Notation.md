@@ -1,5 +1,5 @@
 https://mariusniemet20.medium.com/big-o-notation-time-space-complexity-7d850c3a340f
-https://youtu.be/O9v10jQkm5c?si=rsI0l_AoZ2ITjv8i
+Data sctructures explained for begginers - Sajjaad Khadar: https://youtu.be/O9v10jQkm5c?si=rsI0l_AoZ2ITjv8i
 ![[Big O Image.png]]
 
 - Measures speed and efficiency in programming
