@@ -1,3 +1,5 @@
+https://youtu.be/r51TRDECIw4?t=668
+
 A queue is a linear data structure that follows the First In, First Out (FIFO) principle. The first element added to the queue will be the first one to be removed.
 
 **Key operations:**

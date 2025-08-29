@@ -1,3 +1,4 @@
+https://youtu.be/r51TRDECIw4?t=222
 A linked list is a linear data structure where elements are stored in nodes that point to the next node in the sequence. Unlike arrays, linked lists don't store
 elements in contiguous memory locations.
 
