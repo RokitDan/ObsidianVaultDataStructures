@@ -1,4 +1,7 @@
 {
   "accentColor": "#bca052",
-  "monospaceFontFamily": "FiraCode Nerd Font"
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "enabledCssSnippets": [
+    "everforest"
+  ]
 }
