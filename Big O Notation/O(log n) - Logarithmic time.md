@@ -1,3 +1,5 @@
+https://youtu.be/O9v10jQkm5c?t=193
+
 O(log n) represents logarithmic time complexity, where the algorithm's runtime grows logarithmically with the input size.
 
 In O(log n) algorithms, the problem size is reduced by a constant factor in each step, typically by eliminating half of the remaining elements.

@@ -1,3 +1,5 @@
+https://youtu.be/O9v10jQkm5c?t=106
+
 Linearithmic time complexity O(n log n) occurs when an algorithm's runtime grows proportionally to n times the logarithm of n.
 
 **This complexity typically arises in:**

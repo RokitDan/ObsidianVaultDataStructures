@@ -1,3 +1,5 @@
+https://youtu.be/O9v10jQkm5c?t=821
+
 An unordered collection of unique elements typically implemented using a hash table
 
 A Set is a data structure that stores unique elements with no duplicate values. In most programming languages, sets provide:

@@ -1,3 +1,5 @@
+https://youtu.be/O9v10jQkm5c?t=150
+
 O(2^n) represents exponential time complexity, where the algorithm's runtime grows exponentially with the input size.
 
 **In O(2^n) algorithms:**

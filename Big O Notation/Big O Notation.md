@@ -1,5 +1,7 @@
 https://mariusniemet20.medium.com/big-o-notation-time-space-complexity-7d850c3a340f
 
+Big O notation explained: https://youtu.be/O9v10jQkm5c?t=30
+
 ![[Big O Image.png]]
 
 - Measures speed and efficiency in programming

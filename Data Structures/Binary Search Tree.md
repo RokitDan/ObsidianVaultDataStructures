@@ -1,3 +1,5 @@
+https://youtu.be/O9v10jQkm5c?t=759
+
 ```
 	   50
       /  \

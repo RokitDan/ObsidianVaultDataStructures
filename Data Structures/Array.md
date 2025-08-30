@@ -1,4 +1,6 @@
 https://youtu.be/r51TRDECIw4?t=39
+https://youtu.be/O9v10jQkm5c?t=260
+
 An array is a fundamental data structure that stores a collection of elements, typically of the same type, in contiguous memory locations. Arrays provide indexed access to elements and have a fixed or dynamic size. Arrays are often processed with for loops which is a type of [[Linear Search]]
 
 **Key characteristics:**

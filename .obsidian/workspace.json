@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Tree.md",
+                "file": "Big O Notation/O(n) - Linear time.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tree"
+              "title": "O(n) - Linear time"
             }
           },
           {
@@ -31,7 +31,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,34 +190,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76be7b4b45955788",
+  "active": "7c9db14c7a4d9537",
   "lastOpenFiles": [
     "Big O Notation/O(n) - Linear time.md",
-    "Data Structures/Tree.md",
-    "Big O Notation/O(log n) - Logarithmic time.md",
+    "Data Structures/Array.md",
+    "Big O Notation/O(1) - Constant time.md",
+    "Big O Notation/Big O Notation.md",
+    "Algorithms/Sorting/Bubble Sort.md",
+    "Algorithms/Search/Search Algorithms.md",
+    "Algorithms/Search/Linear Search.md",
+    "Algorithms/Search/Binary Search.md",
+    "Space Complexity/Space Complexity.md",
+    "Space Complexity/Total space.md",
+    "Space Complexity/Input space.md",
+    "Space Complexity/Auxiliary space.md",
+    "Data Structures/Graph.md",
+    "Space Complexity",
+    "Data Structures/Images/Screenshot 2025-08-30 at 12.04.35 PM.png",
+    "Data Structures/Images/Screenshot 2025-08-30 at 12.04.00 PM.png",
+    "Data Structures/Images/Screenshot 2025-08-30 at 12.03.11 PM.png",
+    "Data Structures/Images/Screenshot 2025-08-30 at 12.02.30 PM.png",
+    "Data Structures/Node.md",
+    "Data Structures/Set.md",
+    "Data Structures/Untitled",
+    "Data Structures/Binary Search Tree.md",
+    "Data Structures/ArrayList.md",
+    "Data Structures/Hashmap.md",
+    "Data Structures/Heap.md",
     "Data Structures/Queue.md",
     "Data Structures/Stack.md",
-    "Data Structures/Hashmap.md",
     "Data Structures/Linked List.md",
-    "Data Structures/ArrayList.md",
-    "Data Structures/Array.md",
-    "Algorithms/Search/Linear Search.md",
-    "Big O Notation/O(1) - Constant time.md",
+    "Big O Notation/O(log n) - Logarithmic time.md",
     "Big O Notation/O(2ⁿ) - Exponential time.md",
+    "Big O Notation/O(n log n) - Linearithmic time.md",
     "Data Structures/Common Data Structures.md",
-    "Algorithms/Sorting/Sorting Algorithms.md",
-    "Algorithms/Sorting/Selection Sort.md",
-    "Algorithms/Sorting/Radix Sort.md",
-    "Algorithms/Sorting/Quick Sort.md",
-    "Algorithms/Sorting/Merge Sort.md",
-    "Algorithms/Sorting/Insertion Sort.md",
-    "Algorithms/Sorting/Heap Sort.md",
-    "Algorithms/Sorting/Bubble Sort.md",
-    "Algorithms/Sorting/Bucket Sort.md",
-    "Algorithms/Search/Search Algorithms.md",
-    "Algorithms/Search/Binary Search.md",
-    "Algorithms/Hash Function.md",
-    "Data Structures/Heap.md",
     "Data Structures/Images",
     "Data Structures/Images/Screenshot 2025-08-28 at 2.07.50 PM (2).png",
     "Algorithms/Search",
