@@ -15,8 +15,7 @@ stack height).
 • Balanced tree: O(log n)
 • Skewed tree: O(n)
 
-The [[Stack]] space is the primary memory concern in recursive algorithms, not the
-input data itself.
+The [[Stack]] space is the primary memory concern in recursive algorithms, not the input data itself.
 
 O(h) means space grows with recursion depth h, which can be:
 

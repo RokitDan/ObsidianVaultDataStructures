@@ -2,7 +2,6 @@ Input space refers to the amount of memory required to store the input data
 itself.
 
 **For example:**
-
 • An [[Array]] of n integers requires [[O(n) - Linear Space]] input space
 • A string of length n requires [[O(n) - Linear Space]] input space
 • A matrix of size n×m requires O(n×m) input space

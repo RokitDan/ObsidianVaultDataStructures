@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Tree.md",
+                "file": "Big O Notation/Space Complexity/Total space.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tree"
+              "title": "Total space"
             }
           }
         ],
@@ -210,6 +210,17 @@
   },
   "active": "9fc4f7cf950a327e",
   "lastOpenFiles": [
+    "Big O Notation/Space Complexity/Space Complexity.md",
+    "Big O Notation/Space Complexity/O(n²) - Quadratic Space.md",
+    "Big O Notation/Space Complexity/O(n) - Linear Space.md",
+    "Big O Notation/Space Complexity/O(n log n) - Linearithmic Space.md",
+    "Big O Notation/Space Complexity/O(log n) - Logarithmic Space.md",
+    "Big O Notation/Space Complexity/O(h).md",
+    "Big O Notation/Space Complexity/O(2ⁿ) - Exponential Space.md",
+    "Big O Notation/Space Complexity/O(1) - Constant Space.md",
+    "Big O Notation/Space Complexity/Input space.md",
+    "Big O Notation/Space Complexity/Auxiliary space.md",
+    "Data Structures/Tree.md",
     "Data Structures/Stack.md",
     "Data Structures/Set.md",
     "Data Structures/Queue.md",
@@ -226,17 +237,6 @@
     "Data Structures/ArrayList.md",
     "Data Structures/Array.md",
     "Data Structures/Images/AdjacencyList.png",
-    "Algorithms/Hash Function.md",
-    "Algorithms/Sorting/Tim Sort.md",
-    "Algorithms/Sorting/Sorting Algorithms.md",
-    "Algorithms/Sorting/Selection Sort.md",
-    "Algorithms/Sorting/Radix Sort.md",
-    "Algorithms/Sorting/Quick Sort.md",
-    "Algorithms/Sorting/Merge Sort.md",
-    "Algorithms/Sorting/Insertion Sort.md",
-    "Algorithms/Sorting/Heap Sort.md",
-    "Algorithms/Sorting/Counting Sort.md",
-    "Algorithms/Sorting/Bucket Sort.md",
     "Data Structures/Images/UndirectedGraph.png",
     "Data Structures/Images/DirectedGraph.png",
     "Data Structures/Images/AdjacencyMatrix.png",
