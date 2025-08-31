@@ -2,24 +2,24 @@ https://youtu.be/r51TRDECIw4?t=149
 
 **An ArrayList is a dynamic array data structure that provides:**
 
-• Dynamic sizing: Can grow and shrink as elements are added/removed
-• Random access: [[O(1) - Constant time]] time complexity for accessing elements by index
-• Sequential storage: Elements stored in contiguous memory locations
-• Type safety: Usually typed to store specific data types
+- Dynamic sizing: Can grow and shrink as elements are added/removed
+- Random access: [[O(1) - Constant time]] time complexity for accessing elements by index
+- Sequential storage: Elements stored in contiguous memory locations
+- Type safety: Usually typed to store specific data types
 
 **Key characteristics:**
 
-• Resizes automatically when capacity is exceeded
-• Provides methods for adding, removing, and accessing elements
-• Maintains insertion order
-• Allows duplicate values
+- Resizes automatically when capacity is exceeded
+- Provides methods for adding, removing, and accessing elements
+- Maintains insertion order
+- Allows duplicate values
 
 **Time Complexities:**
 
-• Access by index: [[O(1) - Constant time]]
-• Insertion/Deletion at end: [[O(1) - Constant time]] average
-• Insertion/Deletion in middle: [[O(n) - Linear time]]
-• Search: [[O(n) - Linear time]]
+- Access by index: [[O(1) - Constant time]]
+- Insertion/Deletion at end: [[O(1) - Constant time]] average
+- Insertion/Deletion in middle: [[O(n) - Linear time]]
+- Search: [[O(n) - Linear time]]
 
 ```C#
 // Creating a List (ArrayList equivalent in C#)
@@ -54,9 +54,9 @@ In C#, ArrayLists are implemented using the List<T> class. The List<T> class in 
 
 **Common implementations:**
 
-• C#: List<T> class
-• Java: ArrayList class
-• Python: list built-in (dynamically resized array)
-• JavaScript: Array object
+- C#: List<T> class
+- Java: ArrayList class
+- Python: list built-in (dynamically resized array)
+- JavaScript: Array object
 
 

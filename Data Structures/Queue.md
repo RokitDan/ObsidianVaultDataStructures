@@ -123,11 +123,11 @@ class Program
 
 **C# Queue operations:**
 
-• Enqueue(item): Add item to rear
-• Dequeue(): Remove and return first item
-• Peek(): View first item without removing
-• Count: Get number of elements
-• IsEmpty(): Check if empty (check Count == 0)
+- Enqueue(item): Add item to rear
+- Dequeue(): Remove and return first item
+- Peek(): View first item without removing
+- Count: Get number of elements
+- IsEmpty(): Check if empty (check Count == 0)
 
 The queue follows FIFO (First In, First Out) principle where the first element added is the first one to be removed.
 

@@ -2,10 +2,10 @@ A Hash Set is a specific implementation of the [[Set]] data structure that uses 
 
 Key Characteristics:
 
-• Uses hash function to compute indices for elements
-• Provides [[O(1) - Constant time]] average time complexity for basic operations
-• Elements are stored with no particular order (unlike TreeSet which maintains sorted order)
-• Handles collisions through techniques like chaining or open addressing
+- Uses hash function to compute indices for elements
+- Provides [[O(1) - Constant time]] average time complexity for basic operations
+- Elements are stored with no particular order (unlike TreeSet which maintains sorted order)
+- Handles collisions through techniques like chaining or open addressing
 
 How it works:
 
@@ -15,9 +15,9 @@ How it works:
 
 Common Implementations:
 
-• C++: std::unordered_set<int>
-• Java: HashSet<Integer>
-• JavaScript: Set (though JavaScript's Set is not strictly a hash set)
-• Python: set built-in (uses hash table internally)
+- C++: std::unordered_set<int>
+- Java: HashSet<Integer>
+- JavaScript: Set (though JavaScript's Set is not strictly a hash set)
+- Python: set built-in (uses hash table internally)
 
 Hash Sets are ideal when you need fast operations and don't require elements to be ordered.

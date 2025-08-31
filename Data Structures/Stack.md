@@ -5,18 +5,18 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 
 **Key operations:**
 
-• Push: Add an element to the top of the stack
-• Pop: Remove and return the top element
-• Peek/Top: View the top element without removing it
-• isEmpty: Check if the stack is empty
-• Size: Get the number of elements
+- Push: Add an element to the top of the stack
+- Pop: Remove and return the top element
+- Peek/Top: View the top element without removing it
+- isEmpty: Check if the stack is empty
+- Size: Get the number of elements
 
 **Stacks can be implemented using arrays or linked lists. They're commonly used for:**
 
-• Function call management (call stack)
-• Expression evaluation and syntax parsing
-• Backtracking algorithms
-• Undo operations in applications
+- Function call management (call stack)
+- Expression evaluation and syntax parsing
+- Backtracking algorithms
+- Undo operations in applications
 
 **Time Complexity**
 - Accessing a specific area in stack is [[O(n) - Linear time]] as each element must be evaluated one by one
@@ -113,11 +113,11 @@ class Program
 
 C# Stack operations:
 
-• Push(item): Add item to top
-• Pop(): Remove and return top item
-• Peek(): View top item without removing
-• Count: Get number of elements
-• IsEmpty(): Check if empty (check Count == 0)
+- Push(item): Add item to top
+- Pop(): Remove and return top item
+- Peek(): View top item without removing
+- Count: Get number of elements
+- IsEmpty(): Check if empty (check Count == 0)
 
 The stack follows LIFO (Last In, First Out) principle where the last element added is the first one to be removed.
 

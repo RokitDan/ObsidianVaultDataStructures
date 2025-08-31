@@ -17,23 +17,23 @@ Every parent is smaller than its children
 
 This is a min heap with integer values where:
 
-• Root node contains 1 (minimum value)
-• Each parent node is smaller than or equal to its children
-• The tree is complete (all levels filled except possibly last, which fills left to right)
+- Root node contains 1 (minimum value)
+- Each parent node is smaller than or equal to its children
+- The tree is complete (all levels filled except possibly last, which fills left to right)
 
 In array representation: [1, 3, 6, 5, 10, 8, 12]
 
 For a node at index i:
 
-• Parent is at index (i-1)/2
-• Left child is at index 2*i+1
-• Right child is at index 2*i+2
+- Parent is at index (i-1)/2
+- Left child is at index 2*i+1
+- Right child is at index 2*i+2
 
 So for index 3 (value 5):
 
-• Parent is at index 1 (value 3)
-• Left child is at index 7 (doesn't exist)
-• Right child is at index 8 (doesn't exist)
+- Parent is at index 1 (value 3)
+- Left child is at index 7 (doesn't exist)
+- Right child is at index 8 (doesn't exist)
 
 The heap property ensures the smallest element is always at the root, making it efficient for priority queue operations.
 
@@ -51,43 +51,43 @@ The heap property ensures the smallest element is always at the root, making it 
 
 This is a max heap with integer values where:
 
-• Root node contains 15 (maximum value)
-• Each parent node is greater than or equal to its children
-• The tree is complete (all levels filled except possibly last, which fills left to right)
+- Root node contains 15 (maximum value)
+- Each parent node is greater than or equal to its children
+- The tree is complete (all levels filled except possibly last, which fills left to right)
 
 In array representation: [15, 10, 8, 3, 5, 6, 2]
 
 For a node at index i:
 
-• Parent is at index (i-1)/2
-• Left child is at index 2*i+1
-• Right child is at index 2*i+2
+- Parent is at index (i-1)/2
+- Left child is at index 2*i+1
+- Right child is at index 2*i+2
 
 So for index 1 (value 10):
 
-• Parent is at index 0 (value 15)
-• Left child is at index 3 (value 3)
-• Right child is at index 4 (value 5)
+- Parent is at index 0 (value 15)
+- Left child is at index 3 (value 3)
+- Right child is at index 4 (value 5)
 
 The heap property ensures the largest element is always at the root, making it efficient for priority queue operations where highest priority elements should be
 processed first.
 
 **Key characteristics:**
 
-• Complete binary tree (all levels filled except possibly last, which fills left to right)
-• Can be efficiently implemented using arrays
-• Parent at index i has children at indices 2i+1 and 2i+2
-• Parent of node at index i is at index (i-1)/2
-• Operations: Insert, Extract (remove root), Peek
+- Complete binary tree (all levels filled except possibly last, which fills left to right)
+- Can be efficiently implemented using arrays
+- Parent at index i has children at indices 2i+1 and 2i+2
+- Parent of node at index i is at index (i-1)/2
+- Operations: Insert, Extract (remove root), Peek
 
 Priority Queue is an abstract data type that implements a heap, where elements are processed based on their priority (highest priority first).
 
 **Operations:**
 
-• Insert/Enqueue: Add element with priority
-• Extract/Dequeue: Remove element with highest priority
-• Peek: View highest priority element
-• Heapify: Maintain heap property
+- Insert/Enqueue: Add element with priority
+- Extract/Dequeue: Remove element with highest priority
+- Peek: View highest priority element
+- Heapify: Maintain heap property
 
 JavaScript implementation:
 
@@ -244,15 +244,15 @@ A binary heap is a complete binary tree-based data structure that satisfies the 
 
 Key characteristics:
 
-• Complete binary [[Tree]] (all levels filled except possibly the last, which fills left to right)
-• Two types:
-	• [[#Max Heap]]: Parent >= both children
-	• [[#Min Heap]] Parent <= both children
-• Stored in an array for efficiency
-• Operations:
-	• Insert: [[O(log n) - Logarithmic time]]
-	• Extract min/max: [[O(log n) - Logarithmic time]]
-	• Peek: [[O(1) - Constant time]] 
+- Complete binary [[Tree]] (all levels filled except possibly the last, which fills left to right)
+- Two types:
+	- [[#Max Heap]]: Parent >= both children
+	- [[#Min Heap]] Parent <= both children
+- Stored in an array for efficiency
+- Operations:
+	- Insert: [[O(log n) - Logarithmic time]]
+	- Extract min/max: [[O(log n) - Logarithmic time]]
+	- Peek: [[O(1) - Constant time]] 
 
 
 In [[Dijkstra's]] algorithm, a binary heap is used as a priority [[Queue]] to efficiently select the vertex with the minimum distance at each step, improving [[Time Complexity]] from O(V²) to O((V + E) log V).
@@ -261,10 +261,10 @@ In the context of binary heap time complexity, V represents the number of elemen
 
 **For example:**
 
-• In Dijkstra's algorithm with binary heap: O((V + E) log V)
-	• V = number of vertices
-	• E = number of edges
-• Insertion into heap: O(log V)
-• Extraction from heap: O(log V)
+- In Dijkstra's algorithm with binary heap: O((V + E) log V)
+	- V = number of vertices
+	- E = number of edges
+- Insertion into heap: O(log V)
+- Extraction from heap: O(log V)
 
 The V subscript indicates that the time complexity grows logarithmically with respect to the number of elements in the heap.

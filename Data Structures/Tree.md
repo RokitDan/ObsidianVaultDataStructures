@@ -6,24 +6,24 @@ are called leaves.
 
 Key characteristics:
 
-• Hierarchical organization
-• Each node (except root) has exactly one parent
-• Nodes can have zero or more children
-• No cycles (no node can be its own ancestor)
-• Path from root to any node is unique
+- Hierarchical organization
+- Each node (except root) has exactly one parent
+- Nodes can have zero or more children
+- No cycles (no node can be its own ancestor)
+- Path from root to any node is unique
 
 Common types:
 
-• Binary trees (each node has at most 2 children)
-• [[Binary Search Tree]] (left children < parent, right children > parent)
-• Balanced trees (AVL, Red-Black)
+- Binary trees (each node has at most 2 children)
+- [[Binary Search Tree]] (left children < parent, right children > parent)
+- Balanced trees (AVL, Red-Black)
 
 Applications:
 
-• File systems
-• Decision making
-• Expression parsing
-• Hierarchical data representation
+- File systems
+- Decision making
+- Expression parsing
+- Hierarchical data representation
 
 **Time Complexity**
 
@@ -32,14 +32,14 @@ trees).
 
 Time complexity for tree operations depends on the tree type and structure:
 
-• Search: [[O(log n) - Logarithmic time]] for balanced trees (AVL, Red-Black), [[O(n) - Linear time]] for unbalanced trees
-• Insertion: [[O(log n) - Logarithmic time]], [[O(n) - Linear time]] for unbalanced trees
-• Deletion:  [[O(log n) - Logarithmic time]], [[O(n) - Linear time]]  for unbalanced trees
+- Search: [[O(log n) - Logarithmic time]] for balanced trees (AVL, Red-Black), [[O(n) - Linear time]] for unbalanced trees
+- Insertion: [[O(log n) - Logarithmic time]], [[O(n) - Linear time]] for unbalanced trees
+- Deletion:  [[O(log n) - Logarithmic time]], [[O(n) - Linear time]]  for unbalanced trees
 
 For [[Binary Search Tree]]:
 
-• Best case (balanced): All operations  [[O(log n) - Logarithmic time]]
-• Worst case (skewed): All operations [[O(n) - Linear time]] 
+- Best case (balanced): All operations  [[O(log n) - Logarithmic time]]
+- Worst case (skewed): All operations [[O(n) - Linear time]] 
 
 The logarithmic complexity comes from the tree's height being O(log n) when balanced.
 
@@ -93,9 +93,9 @@ public static void PostOrderTraversal(TreeNode root)
 
 **This demonstrates recursive depth-first traversal techniques:**
 
-• In-order: Left → Root → Right
-• Pre-order: Root → Left → Right
-• Post-order: Left → Right → Root
+- In-order: Left → Root → Right
+- Pre-order: Root → Left → Right
+- Post-order: Left → Right → Root
 
 Each recursive call processes a subtree until reaching null nodes (base case).
 

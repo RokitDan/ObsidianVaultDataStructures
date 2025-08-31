@@ -1,18 +1,18 @@
 **A node typically contains:**
 
-• Data - The actual information stored
-• Pointers/References - Links to other nodes (next, parent, children, etc.)
+- Data - The actual information stored
+- Pointers/References - Links to other nodes (next, parent, children, etc.)
 
 **In the context of [[Graph]] and [[Tree]]:**
 
-• Each node represents a vertex
-• Node structure often includes data and connections to neighboring nodes
+- Each node represents a vertex
+- Node structure often includes data and connections to neighboring nodes
 
 **So while a node itself is simple, it's a building block that enables more complex data structures like:**
 
-• [[Linked List]] (each node has one pointer to next node)
-• [[Tree]] (each node has pointers to child nodes)
-• [[Graph]] (each node stores its neighbors)
+- [[Linked List]] (each node has one pointer to next node)
+- [[Tree]] (each node has pointers to child nodes)
+- [[Graph]] (each node stores its neighbors)
 
 In C#, nodes are typically implemented as classes or structs:
 

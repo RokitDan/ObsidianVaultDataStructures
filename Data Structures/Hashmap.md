@@ -14,15 +14,15 @@ Here's how hashmaps work:
 
 **Key Properties:**
 
-• Fast lookups
-• Dynamic sizing
-• Unordered (in most implementations)
-• Key uniqueness
+- Fast lookups
+- Dynamic sizing
+- Unordered (in most implementations)
+- Key uniqueness
 
 **Time Complexities:**
 
-• Average case: [[O(1) - Constant time]] for search, insert, and delete
-• Hash Collision - Worst case: [[O(n) - Linear time]] when many collisions occur
+- Average case: [[O(1) - Constant time]] for search, insert, and delete
+- Hash Collision - Worst case: [[O(n) - Linear time]] when many collisions occur
 
 A hash table in RAM typically consists of:
 
@@ -45,9 +45,9 @@ A hash table in RAM typically consists of:
 
 The actual physical memory addresses depend on the programming language's runtime and implementation details, but conceptually it's a combination of:
 
-• An [[Array]] of buckets
-• [[Hash Function]] logic
-• Collision resolution mechanisms
+- An [[Array]] of buckets
+- [[Hash Function]] logic
+- Collision resolution mechanisms
 
 
 **Hash Collision Resolution Methods:**

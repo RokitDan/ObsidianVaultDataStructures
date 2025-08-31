@@ -2,11 +2,11 @@ Dijkstra's algorithm is a [[Graph]] search algorithm that finds the shortest pat
 
 Key characteristics:
 
-• Finds shortest path tree from source
-• Uses greedy approach with priority selection
-• Time complexity: O(V²) for basic implementation, O((V + E) log V) with binary heaps
-• Space complexity: O(V)
-• Works only with non-negative edge weights
+- Finds shortest path tree from source
+- Uses greedy approach with priority selection
+- Time complexity: O(V²) for basic implementation, O((V + E) log V) with binary heaps
+- Space complexity: O(V)
+- Works only with non-negative edge weights
 
 **Algorithm steps:**
 
