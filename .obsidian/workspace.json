@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Sorting/Insertion Sort.md",
+                "file": "Algorithms/Search/Linear Search.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insertion Sort"
+              "title": "Linear Search"
             }
           }
         ],
@@ -210,6 +210,11 @@
   },
   "active": "9fc4f7cf950a327e",
   "lastOpenFiles": [
+    "Algorithms/Search/Dijkstra's.md",
+    "Algorithms/Search/Depth-First Search (DFS).md",
+    "Algorithms/Search/Binary Search.md",
+    "Algorithms/Search/Breadth-First Search (BFS).md",
+    "Algorithms/Sorting/Insertion Sort.md",
     "Algorithms/Sorting/Merge Sort.md",
     "Data Structures/Queue.md",
     "Data Structures/Tree.md",
@@ -231,11 +236,6 @@
     "Algorithms/Sorting/Selection Sort.md",
     "Algorithms/Sorting/Radix Sort.md",
     "Algorithms/Sorting/Quick Sort.md",
-    "Algorithms/Sorting/Insertion Sort.md",
-    "Algorithms/Sorting/Heap Sort.md",
-    "Algorithms/Sorting/Counting Sort.md",
-    "Algorithms/Sorting/Bucket Sort.md",
-    "Algorithms/Sorting/Bubble Sort.md",
     "Data Structures/Images/UndirectedGraph.png",
     "Data Structures/Images/DirectedGraph.png",
     "Data Structures/Images/AdjacencyMatrix.png",
