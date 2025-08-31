@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Big O Notation/Big O Notation.md",
+                "file": "Algorithms/Sorting/Tim Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Big O Notation"
+              "title": "Tim Sort"
+            }
+          },
+          {
+            "id": "9fc4f7cf950a327e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Search/Dijkstra's.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dijkstra's"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5024719238281
+    "width": 242.5
   },
   "right": {
     "id": "d4fcffb07f0c8cd2",
@@ -194,49 +208,49 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05dcd17e29b91114",
+  "active": "9fc4f7cf950a327e",
   "lastOpenFiles": [
-    "Big O Notation/Space Complexity/Total space.md",
-    "Big O Notation/Big O Notation.md",
-    "Big O Notation/Space Complexity/Input space.md",
-    "Big O Notation/Space Complexity/Auxiliary space.md",
-    "Data Structures/Comparing Array, ArrayList, Linked List.md",
-    "Big O Notation/Space Complexity/Space Complexity.md",
-    "Data Structures/Array.md",
-    "Big O Notation/Space Complexity/O(n²) - Quadratic Space.md",
-    "Big O Notation/Space Complexity/O(n) - Linear Space.md",
-    "Big O Notation/Space Complexity/O(n log n) - Linearithmic Space.md",
-    "Big O Notation/Space Complexity/O(log n) - Logarithmic Space.md",
-    "Big O Notation/Space Complexity/O(h).md",
-    "Big O Notation/Space Complexity/O(2ⁿ) - Exponential Space.md",
-    "Big O Notation/Space Complexity/O(1) - Constant Space.md",
-    "Big O Notation/Time Complexity/Time Complexity.md",
+    "Algorithms/Sorting/Tim Sort.md",
+    "Algorithms/Sorting/Sorting Algorithms.md",
+    "Algorithms/Sorting/Selection Sort.md",
     "Algorithms/Sorting/Radix Sort.md",
-    "O(h).md",
-    "O(n) space complexity.md",
-    "Data Structures/Linked List.md",
+    "Algorithms/Sorting/Quick Sort.md",
+    "Algorithms/Sorting/Merge Sort.md",
+    "Algorithms/Sorting/Insertion Sort.md",
+    "Algorithms/Sorting/Heap Sort.md",
     "Algorithms/Sorting/Counting Sort.md",
-    "Big O Notation/Time Complexity/O(n) - Linear time.md",
-    "Big O Notation/Time Complexity/O(1) - Constant time.md",
+    "Algorithms/Sorting/Bucket Sort.md",
+    "Algorithms/Sorting/Bubble Sort.md",
+    "Algorithms/Search/Breadth-First Search (BFS).md",
+    "Algorithms/Search/Depth-First Search (DFS).md",
+    "Data Structures/Graph.md",
+    "Data Structures/Comparing Array, ArrayList, Linked List.md",
+    "Data Structures/Common Data Structures.md",
+    "Data Structures/Binary Search Tree.md",
+    "Data Structures/ArrayList.md",
+    "Data Structures/Array.md",
+    "Data Structures/Images/UndirectedGraph.png",
+    "Data Structures/Images/DirectedGraph.png",
+    "Data Structures/Images/AdjacencyMatrix.png",
+    "Data Structures/Images/AdjacencyList.png",
+    "Data Structures/Images/HashMapNames.png",
+    "Data Structures/Priority Queue.md",
+    "Data Structures/Heap.md",
+    "Algorithms/Search/Dijkstra's.md",
+    "Algorithms/Dijkstra.cs",
+    "Big O Notation/Time Complexity/O(n log n) - Linearithmic time.md",
     "Big O Notation/Time Complexity/O(log n) - Logarithmic time.md",
     "Big O Notation/Time Complexity/O(2ⁿ) - Exponential time.md",
-    "Big O Notation/Time Complexity/O(n²) - Quadratic time.md",
+    "Big O Notation/Time Complexity/O(1) - Constant time.md",
     "Big O Notation/Time Complexity",
-    "Big O Notation/Time Complexity/O(n log n) - Linearithmic time.md",
     "Big O Notation/Space Complexity",
-    "Data Structures/Images/Screenshot 2025-08-30 at 12.04.35 PM.png",
-    "Data Structures/Images/Screenshot 2025-08-30 at 12.04.00 PM.png",
-    "Data Structures/Images/Screenshot 2025-08-30 at 12.03.11 PM.png",
-    "Data Structures/Images/Screenshot 2025-08-30 at 12.02.30 PM.png",
     "Data Structures/Untitled",
     "Data Structures/Images",
-    "Data Structures/Images/Screenshot 2025-08-28 at 2.07.50 PM (2).png",
     "Algorithms/Search",
     "Data Structures",
     "Big O Notation/Images/Big O Image.png",
     "Big O Notation",
     "Big O Notation/Images",
-    "Algorithms/Sorting",
-    "Algorithms"
+    "Algorithms/Sorting"
   ]
 }

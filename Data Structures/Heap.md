@@ -5,8 +5,8 @@ children. In a min heap, the value is less than or equal to its children.
 
 ---
 
-**Min Heap**
-- Every parent is smaller than its children
+#### Min Heap
+Every parent is smaller than its children
 ```
         1
        / \
@@ -39,7 +39,7 @@ The heap property ensures the smallest element is always at the root, making it 
 
 ---
 
-**Max Heap**
+#### Max Heap
 - Every parent is larger than its children
 ```
        15
@@ -235,5 +235,36 @@ class Program
 
 For earlier .NET versions, you'd need to implement your own priority queue using a heap structure or use third-party libraries.
 
-The priority queue follows the principle that elements with lower priority values are processed first (min-heap behavior), making it perfect for scheduling tasks,
-event processing, and graph algorithms like Dijkstra's shortest path.
+The priority queue follows the principle that elements with lower priority values are processed first ([[#Min Heap]] behavior), making it perfect for scheduling tasks, event processing, and [[Graph]] algorithms like [[Dijkstra's]] shortest path.
+
+--- 
+### Binary Heap
+
+A binary heap is a complete binary tree-based data structure that satisfies the heap property. It's commonly used to implement priority [[Queue]]s.
+
+Key characteristics:
+
+• Complete binary [[Tree]] (all levels filled except possibly the last, which fills left to right)
+• Two types:
+	• [[#Max Heap]]: Parent >= both children
+	• [[#Min Heap]] Parent <= both children
+• Stored in an array for efficiency
+• Operations:
+	• Insert: [[O(log n) - Logarithmic time]]
+	• Extract min/max: [[O(log n) - Logarithmic time]]
+	• Peek: [[O(1) - Constant time]] 
+
+
+In [[Dijkstra's]] algorithm, a binary heap is used as a priority [[Queue]] to efficiently select the vertex with the minimum distance at each step, improving [[Time Complexity]] from O(V²) to O((V + E) log V).
+
+In the context of binary heap time complexity, V represents the number of elements (vertices) in the heap.
+
+**For example:**
+
+• In Dijkstra's algorithm with binary heap: O((V + E) log V)
+	• V = number of vertices
+	• E = number of edges
+• Insertion into heap: O(log V)
+• Extraction from heap: O(log V)
+
+The V subscript indicates that the time complexity grows logarithmically with respect to the number of elements in the heap.

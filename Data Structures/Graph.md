@@ -5,21 +5,21 @@ between objects.
 
 **Key concepts:**
 
-• Nodes/Vertices - The objects being connected
+• [[Node]]s/Vertices - The objects being connected
 • Edges - The connections between nodes
 • Directed vs Undirected - Edges can have direction or be bidirectional
 • Weighted vs Unweighted - Edges can have values/weights
 
 **Common graph representations:**
 
-• Adjacency List - Each node stores list of connected nodes
-• Adjacency Matrix - 2D matrix showing connections
+• [[#Adjacency List]] - Each node stores list of connected nodes
+• [[#Adjacency Matrix]] - 2D matrix showing connections
 
 **Common algorithms:**
 
-• Breadth-First Search (BFS) - Explores neighbors level by level
+• [[Breadth-First Search (BFS)]] (BFS) - Explores neighbors level by level
 • Depth-First Search (DFS) - Explores as far as possible down a path
-• Dijkstra's Algorithm - Finds shortest path in weighted graphs
+• [[Dijkstra's]] Algorithm - Finds shortest path in weighted graphs
 
 **Graphs are used for:**
 
@@ -33,7 +33,7 @@ between objects.
 
 https://youtu.be/-VgHk7UMPP4?t=9
 
-![[Screenshot 2025-08-30 at 12.04.35 PM.png]]
+![[UndirectedGraph.png]]
 
 Undirected graphs are graphs where edges have no direction - if there's an edge between nodes A and B, you can traverse from A
 to B or B to A.
@@ -66,7 +66,7 @@ to B or B to A.
 
 https://youtu.be/-VgHk7UMPP4?t=94
 
-![[Screenshot 2025-08-30 at 12.04.00 PM.png]]
+![[DirectedGraph.png]]
 
 Directed graphs (digraphs) are graphs where edges have direction - they're ordered pairs representing one-way connections.
 
@@ -99,7 +99,7 @@ Directed graphs (digraphs) are graphs where edges have direction - they're order
 
 https://youtu.be/-VgHk7UMPP4?t=110
 
-![[Screenshot 2025-08-30 at 12.03.11 PM.png]]
+![[AdjacencyMatrix.png]]
 
 An adjacency matrix is a 2D array representation of a graph where rows and columns represent nodes, and the values indicate
 whether edges exist between pairs of nodes.
@@ -139,7 +139,7 @@ C  1 1 0
 
 https://youtu.be/-VgHk7UMPP4?t=193
 
-![[Screenshot 2025-08-30 at 12.02.30 PM.png]]
+![[AdjacencyList.png]]
 
 An adjacency list is a collection of lists where each list describes the set of neighbors for each node in a graph.
 

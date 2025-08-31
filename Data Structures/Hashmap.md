@@ -3,7 +3,7 @@
 https://youtu.be/r51TRDECIw4?t=366
 https://youtu.be/O9v10jQkm5c?t=652
 
-![[Screenshot 2025-08-28 at 2.07.50 PM (2).png]]
+![[HashMapNames.png]]
 - Stores data as key, value pairs
 - Key is run through [[Hash Function]] that determines where its value should be stored
 
