@@ -12,26 +12,21 @@ Key characteristics:
 - No cycles (no node can be its own ancestor)
 - Path from root to any node is unique
 
-Common types:
-
+**Common types:**
 - Binary trees (each node has at most 2 children)
 - [[Binary Search Tree]] (left children < parent, right children > parent)
 - Balanced trees (AVL, Red-Black)
 
-Applications:
-
+**Applications:**
 - File systems
 - Decision making
 - Expression parsing
 - Hierarchical data representation
 
 **Time Complexity**
+Trees support efficient operations like search, insertion, and deletion (O(log n) in balanced trees).
 
-Trees support efficient operations like search, insertion, and deletion (O(log n) in balanced
-trees).
-
-Time complexity for tree operations depends on the tree type and structure:
-
+**Time complexity for tree operations depends on the tree type and structure:**
 - Search: [[O(log n) - Logarithmic time]] for balanced trees (AVL, Red-Black), [[O(n) - Linear time]] for unbalanced trees
 - Insertion: [[O(log n) - Logarithmic time]], [[O(n) - Linear time]] for unbalanced trees
 - Deletion:  [[O(log n) - Logarithmic time]], [[O(n) - Linear time]]  for unbalanced trees
@@ -92,7 +87,6 @@ public static void PostOrderTraversal(TreeNode root)
 ```
 
 **This demonstrates recursive depth-first traversal techniques:**
-
 - In-order: Left → Root → Right
 - Pre-order: Root → Left → Right
 - Post-order: Left → Right → Root
@@ -134,12 +128,9 @@ public static void TraverseDirectory(string path)
 ```
 
 **This code:**
-
 1. Creates a DirectoryInfo object for the target path
 2. Lists all files in the current directory
 3. Recursively processes each subdirectory
 4. Handles access denied exceptions gracefully
 
-The traversal uses the .NET FileSystemInfo class to safely enumerate files and directories
-without modifying system state. This approach is safe as it only reads filesystem metadata and
-does not write or change any files.
+The traversal uses the .NET FileSystemInfo class to safely enumerate files and directories without modifying system state. This approach is safe as it only reads filesystem metadata and does not write or change any files.

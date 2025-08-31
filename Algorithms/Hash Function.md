@@ -1,5 +1,4 @@
 **A specific kind of mathematical algorithm that:**
-
 1. Takes an input (or 'message') of any length
 2. Produces a fixed-length output (hash code or hash value)
 3. Is deterministic (same input always produces same output)
@@ -9,7 +8,6 @@
 Hash functions are fundamental to [[Hashmap]], cryptographic applications, data integrity checks, and many other computer science concepts.
 
 **A simple hash function in C# could look like this:**
-
 ```C#
  public static int SimpleHash(string key)
 {
@@ -23,7 +21,6 @@ Hash functions are fundamental to [[Hashmap]], cryptographic applications, data 
 ```
 
 **This is a basic example that:**
-
 1. Takes a string key as input
 2. Processes each character using multiplication and addition
 3. Applies the modulo operation implicitly through integer overflow

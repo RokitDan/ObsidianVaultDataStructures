@@ -4,7 +4,6 @@ https://youtu.be/O9v10jQkm5c?t=437
 A stack is a linear data structure that follows the Last In, First Out (LIFO) principle. The last element added to the stack will be the first one to be removed.
 
 **Key operations:**
-
 - Push: Add an element to the top of the stack
 - Pop: Remove and return the top element
 - Peek/Top: View the top element without removing it
@@ -12,7 +11,6 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 - Size: Get the number of elements
 
 **Stacks can be implemented using arrays or linked lists. They're commonly used for:**
-
 - Function call management (call stack)
 - Expression evaluation and syntax parsing
 - Backtracking algorithms
@@ -22,8 +20,8 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 - Accessing a specific area in stack is [[O(n) - Linear time]] as each element must be evaluated one by one
 	- *There is no indexing as this is not an array or a list
 - Inserting/Deleting an element to the stack is [[O(1) - Constant time]] as it comes from the top of the stack
-**JavaScript array implementation:**
 
+**JavaScript array implementation:**
 ``` javascript
 class Stack {
   constructor() {
@@ -74,7 +72,6 @@ console.log(stack.size()); // 2
 ```
 
 In C#, the Stack class is available in the System.Collections.Generic namespace:
-
 ```C#
 using System;
 using System.Collections.Generic;
@@ -111,8 +108,7 @@ class Program
 }
 ```
 
-C# Stack operations:
-
+**C# Stack operations:**
 - Push(item): Add item to top
 - Pop(): Remove and return top item
 - Peek(): View top item without removing

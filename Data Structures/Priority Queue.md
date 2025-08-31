@@ -1,7 +1,6 @@
 A priority queue is an abstract data type that operates like a regular [[Queue]] or [[Stack]], but with priorities assignedto each element.
 
-Key operations:
-
+**Key operations:**
 - Insert(element, priority): Add an element with specified priority
 - ExtractMin/ExtractMax(): Remove and return element with highest (or lowest) priority
 

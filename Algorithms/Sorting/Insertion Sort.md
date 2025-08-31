@@ -3,8 +3,7 @@ Bro Code Insertion Sort: https://www.youtube.com/watch?v=8mJ-OhcfpYg
 Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It works by iterating through the array and inserting each
 element into its correct position among the already-sorted elements.
 
-Here's how it works:
-
+**Here's how it works:**
 1. Start with the second element (index 1)
 2. Compare it with elements to its left
 3. Shift larger elements to the right
@@ -39,8 +38,7 @@ console.log("Original array:", numbers);
 console.log("Sorted array:", insertionSort([...numbers])); // Using spread to avoid mutating original
 ```
 
-In this example:
-
+**In this example:**
 • We start with 34 (after 64)
 • Compare 34 with 64, since 34 < 64, we shift 64 to the right
 • Insert 34 in its correct position

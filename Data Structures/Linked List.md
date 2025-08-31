@@ -5,26 +5,22 @@ A linked list is a linear data structure where elements are stored in nodes that
 elements in contiguous memory locations.
 
 **Key characteristics:**
-
 - Each node contains data and a reference (pointer) to the next node
 - Dynamic size - can grow or shrink at runtime
 - No random access - must traverse from the beginning to reach a specific element
 - Additional memory overhead for storing pointers/references
 
 **Time Complexity**:
-
 - Efficient insertion/deletion at any position ([[O(1) - Constant time]] if you have reference to node)
 - Without reference to node, insertion/deletion is [[O(n) - Linear time]]
 
 
 **Types:**
-
 1. Singly linked list - each node points to the next node
 2. Doubly linked list - each node points to both next and previous nodes
 3. Circular linked list - last node points back to the first node
 
 **JavaScript implementation of a singly linked list:**
-
 ```javascript
 class ListNode {
   constructor(data) {

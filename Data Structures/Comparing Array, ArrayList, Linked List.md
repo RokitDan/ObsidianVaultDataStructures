@@ -1,5 +1,4 @@
 **[[Array]]:**
-
 - Fixed size (cannot grow/shrink)
 - Contiguous memory allocation
 - O(1) random access by index
@@ -7,7 +6,6 @@
 - Memory efficient for fixed-size data
 
 **[[ArrayList]]:**
-
 - Dynamic size (grows/shrinks automatically)
 - Contiguous memory allocation (like arrays)
 - O(1) random access by index
@@ -15,7 +13,6 @@
 - More flexible than fixed arrays
 
 **[[Linked List]]:**
-
 - Dynamic size
 - Non-contiguous memory (nodes scattered)
 - O(n) random access (must traverse from beginning)
@@ -23,7 +20,6 @@
 - Extra memory overhead for pointers/references
 
 **The key differences are:**
-
 1. Size flexibility (ArrayList vs fixed Array)
 2. Memory layout (contiguous vs scattered)
 3. Access time complexity (O(1) vs O(n))

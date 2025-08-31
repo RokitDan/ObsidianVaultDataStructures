@@ -1,2 +1,5 @@
 - [[Binary Search]]
+- [[Breadth-First Search (BFS)]]
+- [[Depth-First Search (DFS)]]
+- [[Dijkstra's]]
 - [[Linear Search]]

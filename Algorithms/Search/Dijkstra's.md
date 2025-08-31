@@ -1,7 +1,6 @@
 Dijkstra's algorithm is a [[Graph]] search algorithm that finds the shortest paths from a source vertex to all other vertices in a weighted graph with non-negative edge weights.
 
-Key characteristics:
-
+**Key characteristics:**
 - Finds shortest path tree from source
 - Uses greedy approach with priority selection
 - Time complexity: O(V²) for basic implementation, O((V + E) log V) with binary heaps
@@ -9,7 +8,6 @@ Key characteristics:
 - Works only with non-negative edge weights
 
 **Algorithm steps:**
-
 1. Initialize distances to infinity except source (0)
 2. Use priority queue to select vertex with minimum distance
 3. For selected vertex, update distances to neighbors

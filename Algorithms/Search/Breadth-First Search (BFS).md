@@ -1,7 +1,6 @@
 Breadth-First Search (BFS) is a [[Graph]] traversal algorithm that explores all vertices at the current depth level before moving to vertices at the next depth level.
 
-Key characteristics:
-
+**Key characteristics:**
 - Uses a [[Queue]] (FIFO) data structure
 - Visits vertices level by level from the source
 - Finds shortest path in unweighted graphs

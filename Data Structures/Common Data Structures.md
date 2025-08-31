@@ -4,7 +4,6 @@
 ---
 
 **Internal Resources**
-
 - [[Array]]
 - [[ArrayList]]
 - [[Linked List]]

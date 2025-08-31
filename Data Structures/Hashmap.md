@@ -7,25 +7,22 @@ https://youtu.be/O9v10jQkm5c?t=652
 - Stores data as key, value pairs
 - Key is run through [[Hash Function]] that determines where its value should be stored
 
-Here's how hashmaps work:
+**Here's how hashmaps work:**
 1. [[Hash Function]]: Takes a key and computes an index (hash code) in an underlying array
 2. Storage: Values are stored at computed indices
 3. Collision Handling: When different keys hash to the same index, techniques like chaining (linked lists) or open addressing are used
 
 **Key Properties:**
-
 - Fast lookups
 - Dynamic sizing
 - Unordered (in most implementations)
 - Key uniqueness
 
 **Time Complexities:**
-
 - Average case: [[O(1) - Constant time]] for search, insert, and delete
 - Hash Collision - Worst case: [[O(n) - Linear time]] when many collisions occur
 
-A hash table in RAM typically consists of:
-
+**A hash table in RAM typically consists of:**
 1. [[Array]] Structure: A contiguous block of memory slots (buckets) where each slot can hold:
 	 - An element (key-value pair)
 	 - A pointer to a linked list (when using chaining for collision resolution)
@@ -42,13 +39,11 @@ A hash table in RAM typically consists of:
 	 - Chaining: Each bucket contains a pointer to a linked list of elements
 	 - Open Addressing: Elements are stored directly in the array using probe sequences
 
-
 The actual physical memory addresses depend on the programming language's runtime and implementation details, but conceptually it's a combination of:
 
 - An [[Array]] of buckets
 - [[Hash Function]] logic
 - Collision resolution mechanisms
-
 
 **Hash Collision Resolution Methods:**
 
@@ -62,7 +57,6 @@ The actual physical memory addresses depend on the programming language's runtim
 These techniques ensure that even when multiple keys hash to the same index, all values can still be stored and retrieved correctly.
 
 **Examples in C#**
-
 The Dictionary class in C# uses a hash table internally, providing [[O(1) - Constant time]] average time complexity for lookups, insertions, and deletions.
 
 In C#, hashmaps are implemented using the Dictionary<TKey, TValue> class. Here's how they're typically used:

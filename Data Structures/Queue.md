@@ -4,7 +4,6 @@ https://youtu.be/O9v10jQkm5c?t=508
 A queue is a linear data structure that follows the First In, First Out (FIFO) principle. The first element added to the queue will be the first one to be removed.
 
 **Key operations:**
-
 - Enqueue: Add an element to the rear/tail of the queue
 - Dequeue: Remove and return the front/first element
 - Front/Peek: View the first element without removing it
@@ -13,7 +12,6 @@ A queue is a linear data structure that follows the First In, First Out (FIFO) p
 - Size: Get the number of elements
 
 **Queues are commonly used for:**
-
 - Task scheduling in operating systems
 - Breadth-first search in graphs
 - Handling requests in web servers
@@ -84,7 +82,6 @@ console.log(queue.size()); // 2
 ```
 
 In C#, the Queue class is available in the System.Collections.Generic namespace:
-
 ```C#
 using System;
 using System.Collections.Generic;
@@ -122,7 +119,6 @@ class Program
 ```
 
 **C# Queue operations:**
-
 - Enqueue(item): Add item to rear
 - Dequeue(): Remove and return first item
 - Peek(): View first item without removing

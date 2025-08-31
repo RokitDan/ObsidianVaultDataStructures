@@ -3,8 +3,7 @@ pass through the list is repeated until the list is sorted.
 
 The algorithm gets its name because smaller elements "bubble" to the top of the list (beginning), while larger elements settle toward the bottom (end).
 
-Here's how it works in JavaScript:
-
+**Here's how it works in JavaScript:**
 ```javascript
 function bubbleSort(arr) {
   let n = arr.length;
@@ -37,8 +36,7 @@ console.log("Original array:", numbers);
 console.log("Sorted array:", bubbleSort([...numbers]));
 ```
 
-Here's a C# implementation of bubble sort:
-
+**Here's a C# implementation of bubble sort:**
 ```C#
 using System;
 
@@ -90,22 +88,20 @@ class BubbleSort
 }
 ```
 
-This C# implementation:
-
-• Uses nested loops to compare adjacent elements
-• Swaps elements when they're in wrong order
-• Includes optimization to stop early if no swaps occur
-• Has O(n²) time complexity in worst case
-• Uses O(1) space complexity (sorts in-place)
+**This C# implementation:**
+- Uses nested loops to compare adjacent elements
+- Swaps elements when they're in wrong order
+- Includes optimization to stop early if no swaps occur
+- Has O(n²) time complexity in worst case
+- Uses O(1) space complexity (sorts in-place)
 
 The algorithm repeatedly steps through the array, compares adjacent elements, and swaps them if they're in the wrong order, gradually moving larger elements toward
 the end.
 
 **Key characteristics:**
-
-• Time complexity: O(n²) worst case, O(n) best case (already sorted)
-• Space complexity: O(1) - sorts in-place
-• Stable: Equal elements maintain their relative order
-• Adaptive: Performs better on partially sorted arrays
+- Time complexity: O(n²) worst case, O(n) best case (already sorted)
+- Space complexity: O(1) - sorts in-place
+- Stable: Equal elements maintain their relative order
+- Adaptive: Performs better on partially sorted arrays
 
 The algorithm repeatedly compares adjacent elements and moves larger ones toward the end of the array, "bubbling" them up like air bubbles rising in water.
