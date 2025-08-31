@@ -29,10 +29,24 @@
       }
     },
     {
+      "query": "path:\"Big O Notation/Space Complexity\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13362688
+      }
+    },
+    {
+      "query": "path:\"Big O Notation/Time Complexity\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
       "query": "path:\"Big O Notation\"  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 16770483
       }
     },
     {
@@ -53,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.502579828756937,
+  "scale": 1.7681265251274914,
   "close": true
 }

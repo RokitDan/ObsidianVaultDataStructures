@@ -3,7 +3,7 @@ https://youtu.be/r51TRDECIw4?t=149
 **An ArrayList is a dynamic array data structure that provides:**
 
 • Dynamic sizing: Can grow and shrink as elements are added/removed
-• Random access: [[O(1) - Constant Time]] time complexity for accessing elements by index
+• Random access: [[O(1) - Constant time]] time complexity for accessing elements by index
 • Sequential storage: Elements stored in contiguous memory locations
 • Type safety: Usually typed to store specific data types
 
@@ -16,8 +16,8 @@ https://youtu.be/r51TRDECIw4?t=149
 
 **Time Complexities:**
 
-• Access by index: [[O(1) - Constant Time]]
-• Insertion/Deletion at end: [[O(1) - Constant Time]] average
+• Access by index: [[O(1) - Constant time]]
+• Insertion/Deletion at end: [[O(1) - Constant time]] average
 • Insertion/Deletion in middle: [[O(n) - Linear time]]
 • Search: [[O(n) - Linear time]]
 

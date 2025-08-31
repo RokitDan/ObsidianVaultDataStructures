@@ -18,7 +18,7 @@ function linearSearch(array, target):
     return -1  // not found
 ```
 
-Time Complexity: [[O(n) - Linear Time]]where n is the number of elements Space Complexity: O(1)
+Time Complexity: [[O(n) - Linear time]]where n is the number of elements Space Complexity: O(1)
 
 When to use:
 

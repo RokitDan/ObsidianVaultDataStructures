@@ -32,14 +32,14 @@ trees).
 
 Time complexity for tree operations depends on the tree type and structure:
 
-• Search: [[O(log n) - Logarithmic Time]] for balanced trees (AVL, Red-Black), [[O(n) - Linear Time]] for unbalanced trees
-• Insertion: [[O(log n) - Logarithmic Time]], [[O(n) - Linear Time]] for unbalanced trees
-• Deletion:  [[O(log n) - Logarithmic Time]], [[O(n) - Linear Time]]  for unbalanced trees
+• Search: [[O(log n) - Logarithmic time]] for balanced trees (AVL, Red-Black), [[O(n) - Linear time]] for unbalanced trees
+• Insertion: [[O(log n) - Logarithmic time]], [[O(n) - Linear time]] for unbalanced trees
+• Deletion:  [[O(log n) - Logarithmic time]], [[O(n) - Linear time]]  for unbalanced trees
 
 For [[Binary Search Tree]]:
 
-• Best case (balanced): All operations  [[O(log n) - Logarithmic Time]]
-• Worst case (skewed): All operations [[O(n) - Linear Time]] 
+• Best case (balanced): All operations  [[O(log n) - Logarithmic time]]
+• Worst case (skewed): All operations [[O(n) - Linear time]] 
 
 The logarithmic complexity comes from the tree's height being O(log n) when balanced.
 
