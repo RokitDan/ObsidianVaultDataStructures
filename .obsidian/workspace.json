@@ -192,8 +192,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29fc5dba793e5d55",
+  "active": "76be7b4b45955788",
   "lastOpenFiles": [
+    "Algorithms/Sorting/Images/MergeSort2.png",
+    "Algorithms/Sorting/Images",
+    "Algorithms/Sorting/Images/MergeSort.png",
     "Algorithms/Sorting/Quick Sort.md",
     "Algorithms/Sorting/Merge Sort.md",
     "Big O Notation/Time Complexity/O(n log n) - Linearithmic time.md",
@@ -220,7 +223,6 @@
     "Big O Notation/Space Complexity/O(2ⁿ) - Exponential Space.md",
     "Big O Notation/Space Complexity/O(1) - Constant Space.md",
     "Big O Notation/Images/Big O Image.png",
-    "Data Structures/Priority Queue.md",
     "Data Structures/Images/AdjacencyList.png",
     "Data Structures/Images/UndirectedGraph.png",
     "Data Structures/Images/DirectedGraph.png",
@@ -234,7 +236,6 @@
     "Algorithms/Search",
     "Data Structures",
     "Big O Notation",
-    "Big O Notation/Images",
-    "Algorithms/Sorting"
+    "Big O Notation/Images"
   ]
 }

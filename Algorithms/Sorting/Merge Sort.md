@@ -1,8 +1,12 @@
+https://youtu.be/3j0SWDX4AtU
+
+![[MergeSort.png]]
+![[MergeSort2.png]]
 Merge sort is a divide-and-conquer sorting algorithm that works by recursively
 splitting the [[Array]] into halves, sorting each half, then merging them back together.
 
 #### How it works:
-1. Divide: Split the array into two halves
+1. Divide: Split the [[Array]] into two halves
 2. Conquer: Recursively sort both halves
 3. Combine: Merge the two sorted halves back together
 
@@ -12,7 +16,6 @@ splitting the [[Array]] into halves, sorting each half, then merging them back t
 • Stable sorting algorithm (maintains relative order of equal elements)
 • Not in-place (requires additional memory)
 #### Example process:
-
 ```
 [38, 27, 43, 3]
    ↓
