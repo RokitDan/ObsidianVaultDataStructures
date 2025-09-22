@@ -11,8 +11,8 @@ elements or 10 million elements.
 
 **Other O(1) examples include:**
 
-• Looking up a value in a hash table by key
-• Adding or removing an element at the end of an array
-• Checking if a number is even or odd
+- Looking up a value in a hash table by key
+- Adding or removing an element at the end of an array
+- Checking if a number is even or odd
 
 The "1" indicates that the operation completes in constant time, independent of input size.

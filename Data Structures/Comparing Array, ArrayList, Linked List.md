@@ -5,14 +5,14 @@
 - O(n) insertion/deletion (requires shifting elements)
 - Memory efficient for fixed-size data
 
-**[[ArrayList]]:**
+**[[List (ArrayList)]]:**
 - Dynamic size (grows/shrinks automatically)
 - Contiguous memory allocation (like arrays)
 - O(1) random access by index
 - O(1) amortized insertion at end, O(n) for middle insertions
 - More flexible than fixed arrays
 
-**[[Linked List]]:**
+**[[List (Linked List)]]:**
 - Dynamic size
 - Non-contiguous memory (nodes scattered)
 - O(n) random access (must traverse from beginning)

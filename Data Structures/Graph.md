@@ -165,7 +165,7 @@ C: [A, B]
 
 This is the most commonly used graph representation in practice.
 
- ### ***Adjacency lists are related to [[Array]] and [[ArrayList]] in implementation:***
+ ### ***Adjacency lists are related to [[Array]] and [[List (ArrayList)]] in implementation:***
 
 **Arrays as underlying storage:**
 - An adjacency list can be implemented using arrays

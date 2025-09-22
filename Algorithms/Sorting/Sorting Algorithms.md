@@ -7,4 +7,4 @@
 - [[Counting Sort]]
 - [[Radix Sort]]
 - [[Bucket Sort]]
-- [[Tim Sort]]
+- [[Timsort]]

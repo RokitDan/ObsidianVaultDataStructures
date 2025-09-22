@@ -5,8 +5,8 @@
 
 **Internal Resources**
 - [[Array]]
-- [[ArrayList]]
-- [[Linked List]]
+- [[List (ArrayList)]]
+- [[List (Linked List)]]
 - [[Stack]]
 - [[Queue]]
 - [[Heap]]

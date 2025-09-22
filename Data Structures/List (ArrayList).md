@@ -1,6 +1,6 @@
 https://youtu.be/r51TRDECIw4?t=149
 
-**An ArrayList is a dynamic array data structure that provides:**
+**An Array List is a dynamic array data structure that provides:**
 - Dynamic sizing: Can grow and shrink as elements are added/removed
 - Random access: [[O(1) - Constant time]] time complexity for accessing elements by index
 - Sequential storage: Elements stored in contiguous memory locations

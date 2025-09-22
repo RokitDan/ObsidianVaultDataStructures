@@ -7,7 +7,7 @@
 - Node structure often includes data and connections to neighboring nodes
 
 **So while a node itself is simple, it's a building block that enables more complex data structures like:**
-- [[Linked List]] (each node has one pointer to next node)
+- [[List (Linked List)]] (each node has one pointer to next node)
 - [[Tree]] (each node has pointers to child nodes)
 - [[Graph]] (each node stores its neighbors)
 

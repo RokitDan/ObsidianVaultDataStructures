@@ -10,7 +10,7 @@ https://youtu.be/O9v10jQkm5c?t=652
 **Here's how hashmaps work:**
 1. [[Hash Function]]: Takes a key and computes an index (hash code) in an underlying array
 2. Storage: Values are stored at computed indices
-3. Collision Handling: When different keys hash to the same index, techniques like chaining (linked lists) or open addressing are used
+3. Collision Handling: When different keys hash to the same index, techniques like chaining ([[List (Linked List)]]) or open addressing are used
 
 **Key Properties:**
 - Fast lookups

@@ -24,7 +24,7 @@ These notations help analyze how memory requirements scale with problem size.
 **Common examples:**
 • [[Array]] of size n: O(n) space complexity
 • 2D matrix n×n: O(n²) space complexity
-•[[Linked list]] of size n: [[O(n) - Linear Space]]
+•[[List (Linked List)]] of size n: [[O(n) - Linear Space]]
 • Recursion stack: [[O(h)]] where h is recursion depth
 
 **Space complexity matters for:**
