@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=7-P6Mxl5elg
+
 LINQ (Language Integrated Query) is a powerful feature in C# that
 provides integrated query capabilities directly within the
 language. It allows you to write queries against various data
